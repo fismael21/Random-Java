@@ -17,7 +17,9 @@ public class MainWindow extends javax.swing.JFrame {
         panel.add(new JLayer(new PanelForm(), new FlotingButtonUI()));
     }
 
-    
+    public void actionButton(){
+        System.out.println("Click");
+    }
     
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
